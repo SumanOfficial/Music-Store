@@ -1,0 +1,166 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+body{
+	font-family:"roboto"; text-align:justify; 
+	}
+.container-fluid{
+		width:100%; height:auto; float:left;
+}
+.container{
+		width:100%; height: auto; margin:0 auto; max-width:1170px;
+}
+#banner{
+		width:100%; height:1000px; 
+		background-image:url(../images/login_bg.jpg);
+		background-repeat:no-repeat;
+		background-size:cover; 
+		
+}
+#nav_area{
+		width:100%; height:94px;
+		background-color:rgba(0,0,0,.51); float:left;
+}
+#logo{
+		margin:27px 0 27px 73px; width:100%; height:41px; max-width:170px;
+		float:left;
+}
+nav{
+		width:100%; max-width:400px; height:80px;
+		float:left; margin-left:263px; /*background-color:#649BFB;*/
+}
+nav ul{
+		margin:0; padding:0; list-style-type:none;
+}
+nav ul li{
+		float:left;
+}
+nav ul li a{
+		padding: 10px 12px; font-size:16px; line-height:100px;
+		text-decoration: none; color:white;
+}
+nav ul li a:hover{
+		border-top: 2px solid #fff; color:#649BFB;
+}
+#login_area {
+		width:100%; max-width:152px; height:80px;
+		float:right; margin:38px 0 38px 34px;
+		color:white;
+}
+#login {
+		width:100%; max-width:70px; height:80px;
+		float:left; color:white;
+}
+#signup {
+		width:100%; max-width:70px; height:80px;
+		float:left; color:white;
+}
+.col {
+		width:100%; max-width:1170px; height:610px;
+		float:left; /*background-color:#cfc;*/ margin-top:107px;
+}
+.col_1{
+		width:100%; max-width:555px; height:610px;
+		float:left; margin:0 15px 0; background-color:rgba(87,87,87,.27);
+}
+.log_area{
+		width:100%; max-width:360px; height:82px;
+		margin:84px 0 0 98px; 
+}
+.log_icon{
+		width:100%; max-width:69px; height:68px; 
+		margin-top:2px; float:left;
+}
+.t_area{
+	width:100%; max-width:283px; height:78px;
+	margin-left:5px; float:right; /*background-color:#ffc;*/
+}
+
+
+.s_text {
+		width:100%; max-width:293px; height:28px;
+		 color:white; font-size:20px; margin-left:15px;
+		float:left;/*background-color:#fac;*/
+}
+.b_text {
+		width:100%; max-width:293px; height:50px;
+		color:#f5ae69; font-size:44px; float:left;
+		/*background-color:#fac;*/
+}
+.input_area{
+		width:100%; max-width:360px; height:160px;
+		/*background-color:#cca;*/ margin:74px 0 0 98px; float:left;
+}
+.u_name{
+		width:100%; max-width:360px; height:63px;
+		/*background-color:#cca;*/
+				
+}
+.box{
+		width:100%; max-width:360px; height:63px;
+		background-color:rgba(87,87,87,.40); color:white;
+}
+input::placeholder{
+		color:rgba(255,255,255,.75); padding:25px 0 25px 84px;
+		font-size:18px; font-family:Roboto Regular; border:hidden;
+}
+.password{
+		width:100%; max-width:360px; height:63px;
+		margin-top:30px;
+}
+.check_area{
+		width:100%; max-width:360px; height:80px; 
+		margin:60px 0 0 98px; /*background-color:#cca;*/
+		float: left;
+}
+.c_box{
+		width:100%; max-width:232px; height:80px;
+		float:left; color:white; font-size:16px;
+		/*background-color:#cfa;*/
+}
+input[type="checkbox"]{
+		width:15px; height:15px;
+		cursor:pointer;		
+}
+.button{
+		width:100%; max-width:128px; height:41px;
+		float:right; 
+}
+button{
+		width:100%; max-width:128px; height:41px;
+		background:#bf5947; color:white; font-size: 16px;
+		
+}
+.sign_input_area{
+		width:100%; max-width:360px; height:340px;
+		/*background-color:#cca;*/ margin:74px 0 0 98px;
+}
+.sign_button{
+		width:100%; max-width:128px; height:43px;
+		 margin:45px 0 0 0px; background-color:#cca;
+		 float: right;
+}
+.f_icons{
+		width:100%; height:109px; margin-top:81px;
+	    float:left; background-color:rgba(255,255,255,0.32);
+		
+	
+}
+.icons_area{
+		width:211px; height:73px;
+		float:left; margin:14px 0 0 464px;
+		
+		
+}
+.ic{
+		width:211px; height:41px;
+		float:left; 
+}
+.ic_d{
+		width:100%; max-width:40px; height:40px;
+		margin-right:30px; float:left;
+}
+.ic_text{
+		width:211px; height:15px; margin-top:14px;
+		float:left; font-size:14px; 
+		color:white;
+}
